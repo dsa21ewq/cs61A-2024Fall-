@@ -194,3 +194,29 @@ def fib(n):
         return 1
     return fib(n-1)+fib(n-2)
 # this is another test
+pairs=[[1,2],[2,2],[2,3],[4,4]]
+def count_same(pairs):
+    cnt=0
+    for [x,y] in pairs:
+        if x==y:
+            cnt+=1
+    return cnt
+
+range(-2,2)
+def sum_below(n):
+    sum=0
+    for i in range(n):
+        sum+=i
+    return sum
+
+def cheers(n):
+    for _inds_ in range(3):
+        print("hurray")
+
+letters=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']        
+[letters[i] for i in [3,4,6,8]]
+odds=[1,3,5,7,9]
+[x+1 for x in odds]
+[x for x in odds if 18%x==0]
+def divisors(n):
+    return [1]+[x for x in range(2,n+1) if n%x==0]
