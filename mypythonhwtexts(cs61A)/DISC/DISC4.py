@@ -51,6 +51,7 @@ def sums_using_one(n, m):
         return [sums_to_zero] # Return a list of all the ways to sum to zero
     return one_for_sums(n, m,s=[])  # Fill in the 2nd argument and remove this comment  
 def sums(n, m):
+    #dont konw if it works
     """Return lists that sum to n containing positive numbers up to m that
     have no adjacent repeats.
 
